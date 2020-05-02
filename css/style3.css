@@ -64,7 +64,7 @@ img{
   margin-bottom: 1em;
   text-align: center;
 }
-.btton{
+.button{
   padding: 12px 46px;
   color:#fff;
   background-color: #536DFE;
@@ -77,7 +77,7 @@ img{
   transition: 0.5s;
   display: inline-block;
 }
-.btton:hover{
+.button:hover{
   background-color: #fff;
   color: #536DFE;
   border-color: #536DFE;
