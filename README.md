@@ -1,2 +1,2 @@
 # Deliverable2
-An update version of Foodmandu App
+An final version of Foodmandu App
