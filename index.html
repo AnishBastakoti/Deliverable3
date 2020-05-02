@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foodmandu App</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel='icon' href="pictures/icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="smartphone">
+  <div class="container">
+    <img src="pictures/img1.jpg" alt="Vegetable" class="image1">
+    <div class="centered">
+      <h1> Welcome to Foodmandu App</h1>
+      <h2> For Hungry people like you</h2>
+      <a href="login.html"><button> Sign up</button></a>
+      <p onclick="document.getElementById('Main-modal').style.display='block'">Already have an account? Log in</p>
+    </div>
+  </div>
+</div>
+<div id="Main-modal" class="modal">
+  <form class="animation" action="#" method="post">
+    <div class="form-container">
+      <img src="pictures/img5.png" alt="Avatar" class="image2">
+          <span onclick="document.getElementById('Main-modal').style.display='none'" class="closebtn">&times;</span>
+            <ul class="list">
+              <li><strong> Member Log in</strong></li>
+              <li><input type="text" name ="User Name" placeholder="User Name"></li>
+              <li><input type="Password" name ="Password" placeholder="******* (Password)"></li>
+              <a href="#"><li>Forget Password?</li></a>
+              <br>
+              <a href="mainpage.html" input type="Submit" value="Log in" class="button">Submit</a>
+            </ul>
+      </div>
+  </form>
+</div>
+<script src="JS/login.js"></script>
+</body>
+</html>

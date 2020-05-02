@@ -1,0 +1,175 @@
+@import "style3.css";
+@import "smartphone.css";
+@import "nav.css";
+
+a{
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  padding: 0;
+}
+.fa-shopping-cart{
+  position: absolute;
+  margin-top: 0.6em;
+  margin-left: 8.5em;
+}
+.foodbox1{
+  height: 80px;
+  width: 129px;
+  margin-top: -1.7em;
+  margin-left: 0.2em;
+  background-color: #333;
+  color: #000;
+  text-align:center;
+}
+.foodbox2{
+  height: 80px;
+  width: 129px;
+  margin-left: 10em;
+  background-color: #333;
+  color: #000;
+  margin-top: -7.3em;
+  text-align: center;
+}
+.ingredient{
+  height: 100px;
+  width: 100%;
+  background-color: #333;
+  color: #000;
+  text-align: center;
+  margin-top: -1em;
+}
+.nutrient{
+  height: 86px;
+  width: 100%;
+  background-color: #333;
+  color: #000;
+  text-align: center;
+  margin-top: -1em;
+}
+.price{
+  height: 36px;
+  width: 5em;
+  background-color: #333;
+  color: #000;
+  text-align: center;
+  margin-top: -1em;
+}
+input[type="text"]{
+  height: 32px;
+  width: 124px;
+  font-size: 15px;
+  border-radius: 8px;
+  border-color: #000;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding-left: 15px;
+  margin-left: 3em;
+  margin-top: 4.7em;
+  position: absolute;
+}
+button{
+  background-color: #000;
+  height: 45px;
+  width: 68px;
+  font-size: 12px;
+  border-width: 4px;
+  border-radius: 8px;
+  border-color: #fff;
+  color:#fff;
+  margin-left: 24em;
+  margin-top: -3.4em;
+  position: absolute;
+  cursor: pointer;
+}
+.radiobutton{
+  padding-left: 19px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+.radio-position{
+  margin-top: 1em;
+}
+.dtabse{
+  width: 13em;
+  height: 8.6em;
+  background-color: lightgrey;
+  text-align: center;
+}
+.review{
+  width:11em;
+  height: 8.6em;
+  background-color: #333;
+  position: relative;
+  margin-left: 13em;
+  margin-top: -10.5em;
+  text-align: center;
+}
+
+.sidnav2{
+  height: 84%;
+  width: 0;
+  position:absolute;
+  z-index: 1;
+  top: 7em;
+  right: 0;
+  background-color: #2a9d8f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+.sidenav2 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+ .closebtn:hover {
+  color: ;
+}
+
+ .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 14px;
+  font-size: 19px;
+  margin-left: 50px;
+  display: block;
+  color:#fff;
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+}
+ #checkout span{
+  cursor: pointer;
+  color: #000;
+  margin-left: 6em;
+  margin-top: 10.8em;
+  position: absolute;
+  background-color: green;
+  display: block;
+  border-radius: 8px;
+  padding: 8px 5px 9px 8px;
+}
+p{
+  color:#fff;
+  margin-top: 2em;
+}
+ span{
+ cursor: pointer;
+ text-align: center;
+ color: #fff;
+ margin-left: 7em;
+ margin-top: -2.2em;
+ position: absolute;
+ background-color: #555;
+ display: block;
+ border-radius: 8px;
+ width:34%;
+ padding: 8px 5px 9px 8px;
+}

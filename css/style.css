@@ -1,0 +1,79 @@
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+.image1{
+  -o-object-fit: cover;
+  object-fit: cover;
+  font-family: "object-fit: cover;";
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #000000;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 40.5%;
+  transform: translate(-40%, -40%);
+}
+p {
+   font-size: 15px;
+   font-family: serif;
+   text-align: inherit;
+   padding: 4em;
+}
+
+h1{
+  font-size: 1.5em;
+}
+h2{
+  font-size: 1em;
+  padding-bottom: 4em;
+}
+
+button{
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #003359;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 26px;
+  width:12em;
+}
+button:focus{
+  outline: none;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: Black;
+  transform: translateX(10px) skewX(-5deg);
+  opacity: 0.9;
+  transition:.7s;
+}
+a:link{
+  text-decoration: none;
+  color: #6962F7;
+}
+a:visited{
+  color:#6962F7;
+}
+p:last-child{
+  color: blue;
+  cursor: pointer;
+}

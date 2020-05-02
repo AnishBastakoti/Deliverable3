@@ -1,0 +1,93 @@
+@import "smartphone.css";
+@import "nav.css";
+
+footer{
+  margin-top: -2em;
+  width: 83%;
+  height: 11%;
+  margin-left: 4.9em;
+  position: relative;
+  text-decoration: none;
+}
+span:first-child{
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: none;
+}
+span:nth-child(2){
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: none;
+}
+span:nth-child(3){
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: none;
+}
+span:last-child{
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: none;
+}
+.container {
+  position: relative;
+}
+h1{
+  padding-top: 4px;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+}
+img{
+  width: 100%;
+  height: 540px;
+  background-repeat: no-repeat;
+}
+.About-app{
+  position: absolute;
+  top: 0em;
+  font-size: 14px;
+  background-color: #555;
+  min-width: 100%;
+  min-height: 132px;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: verdana;
+}
+.food{
+  position: absolute;
+  top: 11em;
+  font-size: 16px;
+  background-color: #555;
+  min-width: 100%;
+  min-height: 89px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.btton{
+  padding: 12px 46px;
+  color:#fff;
+  background-color: #536DFE;
+  border:2px solid white;
+  border-radius: 8px;
+  border: 4px solid;
+  margin-left: -20em;
+  margin-top: 29em;
+  position: absolute;
+  transition: 0.5s;
+  display: inline-block;
+}
+.btton:hover{
+  background-color: #fff;
+  color: #536DFE;
+  border-color: #536DFE;
+}
+.fa-user-circle{
+  position: absolute;
+  margin-top: -1.3em;
+  margin-left: 9.4em;
+  color: #000;
+}
+a:link{
+  color: #000;
+}

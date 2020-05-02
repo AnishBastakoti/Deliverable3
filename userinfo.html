@@ -1,0 +1,125 @@
+<!Doctype html>
+<html Lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Foodmandu App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/user.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='icon' href="pictures/icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="smartphone">
+    <a href="mainpage.html"><h1>Foodmandu</h1></a>
+    <i class="fas fa-user-circle" style="font-size:33px"></i>
+    <div class= "scrollmenu">
+      <div class="dropdown">
+  <a onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></a>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#beef">Beef</a>
+    <a href="#Lamb">Lamb</a>
+    <a href="#Vegan">Vegan</a>
+  </div>
+  </div>
+      <a href="resturantpage.html" class="active">Nirvana</a>
+      <a href="resturantpage.html">Hanuman</a>
+      <a href="resturantpage.html">The OAK</a>
+      <a href="resturantpage.html">Sao</a>
+      <a href="resturantpage.html">Resturant</a>
+      <a href="resturantpage.html">Cafe</a>
+      <a href="resturantpage.html">Cafe</a>
+  </div>
+    <div class="user-card">
+        <label>Name: Eden Hazard</label><br>
+        <label>Age: 25 yrs</label><br>
+        <label>Address: Darwin</label><br>
+        <label>Gmail: some@domain.com</label><br>
+        <label>Phone Number: xx-xx-xx</label><br>
+        <label>DOB: DD/MM/YY</label>
+    <img src="https://avatars0.githubusercontent.com/u/13105865?s=400&v=4" class="user-img" alt="user">
+    </div>
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="credit-info">
+    <h3> Your Credit Card Info</h3>
+        <table>
+          <tr>
+            <td>Credit Card number</td>
+            <td>XXXX-XXXX-XXXX-9867</td>
+          </tr>
+          <tr>
+            <td>Card Expery Month</td>
+            <td>May</td>
+          </tr>
+          <tr>
+            <td>Card Expery Year</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Card Holder Name</td>
+            <td>Eden Hazard</td>
+          </tr>
+        </table>
+        <br>
+        <label style="text-align:center; color:#000"><strong>Accepted Cards</strong></label>
+            <div class="icon-container">
+              <i class="fa" style="font-size:48px;color:blue">&#xf1ed;</i>
+              <i class="fa fa-cc-visa" style="font-size:48px;color:navy;"></i>
+              <i class="fa fa-cc-amex" style="font-size:48px;color:red"></i>
+              <i class="fa fa-cc-mastercard" style="font-size:48px;color:black;"></i>
+              <i class="fa fa-cc-jcb" style="font-size:48px;color:red"></i>
+            </div>
+            <p><strong>You can update your card details below:-</strong></p>
+            <label class="word">Name on the Card</label>
+            <input type="text" name="cardname" placeholder="John More Doe">
+            <label class="word">Credit card number</label>
+            <input type="text" name="cardnumber" placeholder="XXX-XXXX-XXXX-4444">
+            <label class="word">Exp Month</label>
+            <input type="text" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col">
+                <label class="word">Exp Year</label>
+                <input type="text" name="expyear" placeholder="2022">
+              </div>
+            </div>
+            <div class="row1">
+              <div class="col1">
+                <label class="word">CVV</label>
+                <input type="text" name="CVV" placeholder="223">
+              </div>
+            </div>
+            <button>Update</button>
+          </div>
+        </div>
+    <button class="btn" onclick="openNav()">credit card info</button>
+    <div class="botnav">
+      <a href="#" class="active"> Today</a>
+      <a onclick="document.getElementById('nuti').style.display='block'"> Yesterday</a>
+      <a href="#"> Previous </a>
+    </div>
+    <div class="nutrient">
+      <h5>Your Intake</h5>
+      <label> Fat: ......</label><br>
+      <br>
+      <label> Vitamin: ......</label><br>
+      <br>
+      <label> Protien: ......</label><br>
+      <br>
+      <label> Glucose: ......</label><br>
+    </div>
+    <div class="nutrient1">
+        <h5>Standerd</h5>
+      <label> Fat: ......</label><br>
+      <br>
+      <label> Vitamin: ......</label><br>
+      <br>
+      <label> Protien: ......</label><br>
+      <br>
+      <label> Glucose: ......</label><br>
+    </div>
+  </div>
+  <script src="JS/hamburger-menu.js"></script>
+<script src="JS/card.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!Doctype html>
+<html Lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Foodmandu App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/user.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='icon' href="pictures/icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="smartphone">
+    <a href="mainpage.html"><h1>Foodmandu</h1></a>
+    <i class="fas fa-user-circle" style="font-size:33px"></i>
+    <div class= "nav">
+      <ul>
+        <li><a href="resturantpage.html">Nirvana</a></li>
+        <li><a href="resturantpage.html">Hanuman</a></li>
+        <li><a href="resturantpage.html">The OAK</a></li>
+      </ul>
+      <div id="ham-nav">
+          <a href="#beef">Beef</a>
+          <a href="#lamb">Lamb</a>
+          <a href="#Vegan">Beef</a>
+        </div>
+      <a href="javascript:void(0);" on click="myFunction()"><i class="fa fa-bars icon"></i></a>
+    </div>
+
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="credit-info">
+    <h3> Your Credit Card Info</h3>
+        <table>
+          <tr>
+            <td>Credit Card number</td>
+            <td>XXXX-XXXX-XXXX-9867</td>
+          </tr>
+          <tr>
+            <td>Card Expery Month</td>
+            <td>May</td>
+          </tr>
+          <tr>
+            <td>Card Expery Year</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td>Card Holder Name</td>
+            <td>Eden Hazard</td>
+          </tr>
+        </table>
+        <br>
+        <label><strong>Accepted Cards</strong></label>
+            <div class="icon-container">
+              <i class="fa fa-paypal" style="color:blue"></i>
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:red"></i>
+              <i class="fa fa-cc-mastercard" style="color:black;"></i>
+              <i class="fa fa-cc-jcb" style="color:red"></i>
+            </div>
+            <p><strong>You can update your card details below:-</strong></p>
+            <label>Name on the Card</label>
+            <input type="text" name="cardname" placeholder="John More Doe">
+            <label>Credit card number</label>
+            <input type="text" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label>Exp Month</label>
+            <input type="text" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col">
+                <label>Exp Year</label>
+                <input type="text" name="expyear" placeholder="2018">
+              </div>
+            </div>
+            <div class="row1">
+              <div class="col1">
+                <label for="expyear">CVV</label>
+                <input type="text" name="CVV" placeholder="223">
+              </div>
+            </div>
+            <button>Update</button>
+          </div>
+        </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "85%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+    <script src="JS/hamburger.js"></script>
+  <script src="JS/yest.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  </body>
+  </html>
