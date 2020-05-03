@@ -1,0 +1,69 @@
+@import "smartphone.css";
+@import "nav.css";
+@import "resturanrpage.css";
+
+.box{
+  height: 72%;
+  width:100%;
+  overflow: scroll;
+  margin-top: 5em;
+}
+.row{
+  display: flex;
+}
+.column {
+  flex: 30%;
+  padding: 10px;
+  height: 163px;
+  margin-bottom: 1em;
+  background-color:#bbb;
+}
+.column1{
+  flex: 50%;
+  padding: 10px;
+  height: 163px;
+  margin-bottom: 1em;
+  background-color:#bbb;
+}
+.imge{
+  height: 100%
+}
+#input{
+  width: 50%;
+  font-size: 11px;
+  padding: 7px 43px 5px 11px;
+  border: 2px solid #333;
+  margin-bottom: 0px;
+  position: absolute;
+  margin-top: 2em;
+  background-color: blue;
+  color:#fff;
+  border-radius: 18px;
+}
+
+.fa-search {
+  width: 13%;
+  padding: 10px;
+  color: white;
+  font-size: 13px;
+  border: 2px;
+  border-left: none;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 2.3em;
+  margin-left: 16em;
+  border-radius: 18px
+  }
+#input::placeholder{
+  color:#fff;
+}
+dialog{
+  position:inherit;
+  margin-top: -1em;
+  color:blue;
+  cursor: pointer;
+}
+.column1 h4, p{
+  margin-top: 0em;
+  color:#000;
+}
