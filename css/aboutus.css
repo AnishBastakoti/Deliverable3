@@ -1,6 +1,6 @@
 #sidenav1 {
   width: 0;
-  height: 616px;
+  height: 627px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -79,7 +79,7 @@ a.closebtn {
   background-color: #fff;
   color: blue;
 }
-p{
+.container1 p{
   color:#fff;
 }
 h2{

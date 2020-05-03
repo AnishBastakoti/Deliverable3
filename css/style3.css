@@ -40,51 +40,72 @@ h1{
 }
 img{
   width: 100%;
-  height: 540px;
+  height: 40em;
   background-repeat: no-repeat;
 }
 .About-app{
   position: absolute;
-  top: 0em;
+  top: 2em;
   font-size: 14px;
-  background-color: #555;
+  background-color: #000;
   min-width: 100%;
   min-height: 132px;
   margin-bottom: 1em;
   text-align: center;
   font-family: verdana;
+  opacity: 0.8;
 }
 .food{
   position: absolute;
-  top: 11em;
+  top: 19em;
   font-size: 16px;
-  background-color: #555;
+  background-color: #000;
   min-width: 100%;
   min-height: 89px;
   margin-bottom: 1em;
   text-align: center;
+  opacity: 0.8;
 }
-.button{
+a.button{
   padding: 12px 46px;
   color:#fff;
   background-color: #536DFE;
-  border:2px solid white;
+  border:2px white solid;
   border-radius: 8px;
   border: 4px solid;
   margin-left: -20em;
-  margin-top: 29em;
+  margin-top: 33em;
   position: absolute;
   transition: 0.5s;
   display: inline-block;
 }
-.button:hover{
+a.button:hover{
   background-color: #fff;
   color: #536DFE;
   border-color: #536DFE;
+}
+a.button1{
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: red;
+  color:#fff;
+  border: 4px black solid;
+  margin-left: -18em;
+  margin-top: 28em;
+  position: absolute;
+  transition: 0.5s;
+  display: inline-block;
 }
 .fa-user-circle{
   position: absolute;
   margin-top: -1.3em;
   margin-left: 9.4em;
   color: #000;
+}
+p{
+  color:#fff;
+}
+dialog{
+  position: inherit;
+  color:blue;
 }

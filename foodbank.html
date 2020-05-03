@@ -1,0 +1,99 @@
+<!Doctype html>
+<html Lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Foodmandu App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/foodbank.css">
+  <link rel='icon' href="pictures/icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="smartphone">
+    <a href="mainpage.html"><h1>Foodmandu</h1></a>
+    <a href="userinfo.html" i class="fas fa-user-circle" style="font-size:33px"></i></a>
+    <div class= "scrollmenu">
+      <div class="dropdown">
+  <a onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></a>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#beef">Beef</a>
+    <a href="#Lamb">Lamb</a>
+    <a href="#Vegan">Vegan</a>
+  </div>
+  </div>
+      <a href="resturantpage.html" class="active">Nirvana</a>
+      <a href="resturantpage.html">Hanuman</a>
+      <a href="resturantpage.html">The OAK</a>
+      <a href="resturantpage.html">Sao</a>
+      <a href="resturantpage.html">Resturant</a>
+      <a href="resturantpage.html">Cafe</a>
+      <a href="resturantpage.html">Cafe</a>
+  </div>
+    <i onclick="openNav()"class='fas fa-shopping-cart' style='font-size:36px'></i>
+    <div id="checkout" class="sidnav2">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+      <h2>Order List</h2>
+      <ul>
+        <li>2x Mac & Cheese</li>
+        <li>10x Buffalo Wings</li>
+        <li>1x Diet Coke 1.2L</li>
+        <li>1x Large Fries</li>
+      </ul>
+      <input type="text" placeholder="Promo code">
+      <span><a href="order.html">Checkout</span></a>
+    </div>
+    <input type="text" id="input" placeholder="Search for food names..">
+    <a href="#" i class="fa fa-search"></i><a>
+    <div class="box">
+      <div class="row">
+        <div class="column">
+            <img src="pictures/food.jpeg" alt="burger" class="imge"></img>
+        </div>
+        <div class="column1">
+          <h4>Burger</h4>
+          <dialog open onclick="document.location = 'resturantpage.html'">Description of food and Ingredients over here. click on this box to see it's nutrient</dialog>
+          <p> resturant name over here</p>
+          <p><strong>Price:4.99$</strong></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+            <img src="pictures/food1.jpeg" alt="hotdog" class="imge"></img>
+        </div>
+        <div class="column1">
+          <h4>Hotdog</h4>
+          <dialog open onclick="document.location = 'resturantpage.html'">Description of food and Ingredients over here. click on this box to see it's nutrient</dialog>
+          <p> resturant name over here</p>
+          <p><strong>Price:4.99$</strong></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+            <img src="pictures/food2.jpeg" alt="sandwich" class="imge"></img>
+        </div>
+        <div class="column1">
+          <h4>Sandwich</h4>
+          <dialog open onclick="document.location = 'resturantpage.html'">Description of food and Ingredients over here. click on this box to see it's nutrient</dialog>
+          <p> resturant name over here</p>
+          <p><strong>Price:4.99$</strong></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+            <img src="pictures/food3.jpeg" alt="Shusi" class="imge"></img>
+        </div>
+        <div class="column1">
+          <h4>Shusi</h4>
+          <dialog open onclick="document.location = 'resturantpage.html'">Description of food and Ingredients over here. click on this box to see it's nutrient</dialog>
+          <p>resturant name over here</p>
+          <p><strong>Price:4.99$</strong></p>
+        </div>
+      </div>
+  </div>
+<script src="JS/hamburger-menu.js"></script>
+<script src="JS/checkout.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>
