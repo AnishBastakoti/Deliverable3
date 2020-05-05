@@ -1,6 +1,6 @@
 .smartphone {
   position: relative;
-  max-width: 360px;
+  width: 360px;
   height: 640px;
   margin: auto;
   border: 16px black solid;
