@@ -15,18 +15,6 @@
   border-radius: 18px;
   margin: 1em 1em 1em 1em ;
 }
-.box:hover .row{
-  filter:blur(3px);
-  opacity:.5;
-  transform: scale(.98);
-  box-shadow:none;
-}
-.box:hover .row:hover{
-  transform:scale(1);
-  filter:blur(0px);
-  opacity:1;
-  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
-}
 .column {
   flex: 30%;
   padding: 10px;

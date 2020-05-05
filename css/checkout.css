@@ -1,0 +1,114 @@
+@import "smartphone.css";
+@import "nav.css";
+.box{
+  height: 38%;
+  width: 100%;
+  background-color:#95389e;
+  overflow: scroll;
+}
+h3{
+  text-align: center;
+  color:indigo;
+  color:#fff;
+  font-family: open sans-serif, Arial;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #937d14;
+  color: #fff;
+}
+tr:nth-child(odd){background-color: #fff;
+}
+tr:nth-child(4){
+  background-color: #442727;
+}
+a.btn1{
+  background-color: #363636;
+  width: 35%;
+  height: 4%;
+  color: #fff;
+  font-size: 19px;
+  margin: 3em 0em 0em 5em;
+  padding: 4px 4px 4px 4px;
+  position: absolute;
+  border-radius: 8px
+}
+.btn4{
+  background-color: #0779e4;
+  width: 34%;
+  height: 6%;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1em 0em 1em 1em;
+}
+.collapse{
+  height: 38%;
+  width: 100%;
+  background-color:#0779e4;
+  overflow: scroll;
+}
+label {
+  margin-bottom: -4px;
+  display: block;
+  color: #fff;
+}
+input[type=text]{
+  width: 70%;
+  margin-bottom: 0px;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 2em;
+}
+.word {
+  margin-bottom: 4px;
+  display: block;
+  color: #000;
+  text-align: center;
+}
+a.button{
+  width:50%;
+  height: 3em;
+  background-color: red;
+  color: #000;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 4px 4px 4px 4px;
+  margin: 2em 2em 2em 7em;
+  cursor: pointer;
+  position:relative;
+}
+input.check-box{
+  margin: 0em 6em 0em 9em;
+  font-size:18px;
+  width: 7%;
+  height: 6%;
+}
+.btn-card{
+  width: 38%;
+  height: 2em;
+  background-color: blue;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 4px 4px 4px 4px;
+  margin: -19.7em 0em 0em 10em;
+  position: absolute;
+}
+p{
+  margin-left: 12em;
+  color:blue;
+  margin-top: -2.5em;
+}
